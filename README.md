@@ -20,9 +20,7 @@ Please follow this [URL](https://kafka.apache.org/quickstart) to download and st
 ## Publish message via WebService
 - `http://localhost:8081/kafka/publish/Sam`
 - `http://localhost:8081/kafka/publish/Peter`
-        ```$xslt
-        curl -X GET "http://localhost:8081/kafka/publish/Sam" -H "accept: application/JSON"
-        ```
+
  - **To Build app:**
     ```$xslt
     ./gradlew clean build
